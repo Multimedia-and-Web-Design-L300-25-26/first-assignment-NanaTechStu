@@ -13,3 +13,10 @@ Endpoints:
 - GET /api/courses/201
 - GET /api/instructors
 - GET /api/instructors/101
+
+Level 2 added:
+
+- GET /api/students/:id/enrollments
+- GET /api/students/:id/courses
+- GET /api/courses/:id/students
+- GET /api/instructors/:id/courses

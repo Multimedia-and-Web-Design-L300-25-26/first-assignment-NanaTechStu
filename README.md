@@ -1,1 +1,22 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fdiUb9Ga)
+# University API - Nana Adwoa Aforo OSEI
+
+Level 1 done: GET all and GET by id for students, courses and instructors.
+
+Here is how to run it:
+npm install
+npm run dev
+
+Endpoints:
+- GET /api/students
+- GET /api/students/1
+- GET /api/courses
+- GET /api/courses/201
+- GET /api/instructors
+- GET /api/instructors/101
+
+Level 2 added:
+
+- GET /api/students/:id/enrollments
+- GET /api/students/:id/courses
+- GET /api/courses/:id/students
+- GET /api/instructors/:id/courses
